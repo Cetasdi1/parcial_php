@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cine</title>
+</head>
+<body>
+    <h1>Cartelera, cine</h1>
+    <form action="cine.php" method="post">
+        <table>  
+            <tr>
+                <td width="50">Nombre:</label></td>
+                <td width="50"><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+                <td width="50">Apellido</label></td>
+                <td width="50"><input type="text" name="apel"></td>
+            </tr>
+            <tr>
+                <td width="50">Direccion:</label></td>
+                <td width="50"><input type="text" name="direc"></td>
+            </tr>
+            <tr>
+                <td width="50">Numero:</label></td>
+                <td width="50"><input type="number" name="num"></td>
+            </tr>
+            <tr>
+                <td width="50">Documento:</label></td>
+                <td width="50"><input type="number" name="id"></td>
+            </tr>
+            <tr>
+                <td width="50">Edad:</label></td>
+                <td width="50"><input type="number" name="Edad"></td>
+            </tr>
+            <tr>
+                <td width="50">Dinero:</label></td>
+                <td width="50"><input type="number" name="din"></td>
+            </tr>
+            <tr>
+                <td width="50">pelicula:</label></td>
+                <td>
+                    <select name="pelicula">
+                        <option value="r">Rambo(5000 + IVA)</option>
+                        <option value="d">Depredador(7000 + IVA)</option>
+                        <option value="c">El cazador de brujas(9000 + IVA)</option>
+                        <option value="l">La Red(12000 + IVA)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
